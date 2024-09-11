@@ -5,42 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rossi Invest</title>
 </head>
-<body>  
-  <script type="text/javascript">
-      DukascopyApplet = {
-          "type": "historical_sentiment_index",
-          "params": {
-              "showHeader": true,
-              "tableBorderColor": "#D92626",
-              "liquidity": "consumers",
-              "availableInstruments": [
-                  "EUR/USD", "USD/JPY", "GBP/USD", "EUR/JPY", "USD/CAD", "AUD/USD", "XAU/USD", "XAG/USD", "USD/HKD",
-                  "AUD/CAD", "AUD/CHF", "AUD/JPY", "AUD/NZD", "AUD/SGD", "CAD/CHF", "CAD/HKD", "CAD/JPY", "CHF/JPY",
-                  "CHF/SGD", "EUR/AUD", "EUR/CAD", "EUR/CHF", "EUR/CZK", "EUR/DKK", "EUR/GBP", "EUR/HKD", "EUR/HUF",
-                  "EUR/NOK", "EUR/NZD", "EUR/PLN", "EUR/SEK", "EUR/SGD", "EUR/TRY", "GBP/AUD", "GBP/CAD", "GBP/CHF",
-                  "GBP/JPY", "GBP/NZD", "HKD/JPY", "NZD/CAD", "NZD/CHF", "NZD/JPY", "SGD/JPY", "TRY/JPY", "USD/AED",
-                  "USD/CNH", "USD/CZK", "USD/DKK", "USD/HUF", "USD/ILS", "USD/MXN", "USD/NOK", "USD/PLN", "USD/RON",
-                  "USD/SAR", "USD/SEK", "USD/SGD", "USD/THB", "USD/TRY", "USD/ZAR", "ZAR/JPY", "NZD/USD", "USD/CHF"
-              ],
-              "availableCurrencies": [
-                  "AUD", "CAD", "CHF", "GBP", "HKD", "JPY", "MXN", "NOK", "NZD", "PLN", "RUB", "SEK", "SGD", "TRY",
-                  "USD", "ZAR", "EUR", "XAG", "XAU"
-              ],
-              "sort": "instrument",
-              "order": "asc",
-              "last": true,
-              "sixhours": true,
-              "oneday": true,
-              "fivedays": true,
-              "width": "100%",
-              "height": "100%",
-              "adv": "popup",
-              "lang": "pt"
-          }
-      };
-  </script>
-  <script type="text/javascript" src="https://freeserv-static.dukascopy.com/2.0/core.js"></script>
-
+<body> 
+    <div id="dukascopy-widget" style="width: 100%; height: 725px;">
+      <script type="text/javascript">
+          DukascopyApplet = {
+              "type": "historical_sentiment_index",
+              "params": {
+                  "showHeader": true,
+                  "tableBorderColor": "#D92626",
+                  "liquidity": "consumers",
+                  "availableInstruments": [
+                      "EUR/USD", "USD/JPY", "GBP/USD", "EUR/JPY", "USD/CAD", "AUD/USD", "XAU/USD", "XAG/USD", "USD/HKD",
+                      "AUD/CAD", "AUD/CHF", "AUD/JPY", "AUD/NZD", "AUD/SGD", "CAD/CHF", "CAD/HKD", "CAD/JPY", "CHF/JPY",
+                      "CHF/SGD", "EUR/AUD", "EUR/CAD", "EUR/CHF", "EUR/CZK", "EUR/DKK", "EUR/GBP", "EUR/HKD", "EUR/HUF",
+                      "EUR/NOK", "EUR/NZD", "EUR/PLN", "EUR/SEK", "EUR/SGD", "EUR/TRY", "GBP/AUD", "GBP/CAD", "GBP/CHF",
+                      "GBP/JPY", "GBP/NZD", "HKD/JPY", "NZD/CAD", "NZD/CHF", "NZD/JPY", "SGD/JPY", "TRY/JPY", "USD/AED",
+                      "USD/CNH", "USD/CZK", "USD/DKK", "USD/HUF", "USD/ILS", "USD/MXN", "USD/NOK", "USD/PLN", "USD/RON",
+                      "USD/SAR", "USD/SEK", "USD/SGD", "USD/THB", "USD/TRY", "USD/ZAR", "ZAR/JPY", "NZD/USD", "USD/CHF"
+                  ],
+                  "availableCurrencies": [
+                      "AUD", "CAD", "CHF", "GBP", "HKD", "JPY", "MXN", "NOK", "NZD", "PLN", "RUB", "SEK", "SGD", "TRY",
+                      "USD", "ZAR", "EUR", "XAG", "XAU"
+                  ],
+                  "sort": "instrument",
+                  "order": "asc",
+                  "last": true,
+                  "sixhours": true,
+                  "oneday": true,
+                  "fivedays": true,
+                  "width": "100%",
+                  "height": "100%",
+                  "adv": "popup",
+                  "lang": "pt"
+              }
+          };
+      </script>
+      <script type="text/javascript" src="https://freeserv-static.dukascopy.com/2.0/core.js"></script>
     </div>
 </body>
 </html>
